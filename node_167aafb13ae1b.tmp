@@ -1,0 +1,17 @@
+const nome = document.getElementById("nome");
+let nota1 = document.getElementById("nota1");
+let nota2 = document.getElementById("nota2");
+let nota3 = document.getElementById("nota3");
+let nota4 = document.getElementById("nota4");
+let btn = document.querySelector("btn");
+
+function calcularMedia() {
+    let calcular = (nota1 + nota2 + nota3 + nota4)/4;
+    calcular.window.alert(calcularMedia());
+    
+}
+console.log(calcularMedia());
+
+btn.addEventListener("click", function botao(){
+    btn.calcularMedia();
+})

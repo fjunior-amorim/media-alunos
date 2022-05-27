@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+    color: white;
+}
+.for {
+    
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+}
+h1 {
+    color: rgb(102, 252, 252);
+    text-align: center;
+    padding: 10px;;
+    font-size: 2.2rem;
+}
+p {
+    width: 300px;
+    margin-left: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+.titulo {
+    background-color: rgb(12, 12, 12);
+}
+.titulo hr {
+    width: 400px;
+    margin: 10px 20px 10px 50px;
+    border: 1px solid rgb(70, 69, 69);
+    margin-bottom: 30px;
+}
+.formulario fieldset {
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 90px;
+    background-color: rgb(12, 11, 11);
+    border: 2px solid rgb(70, 69, 69);
+    box-shadow: 2px 3px 10px rgba(235, 230, 230, 0.322);
+}
+.formulario legend {
+    background-color: rgb(32, 32, 32);
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    color: rgb(151, 248, 248);
+}
+.name {
+    text-align: center;
+}
+.formulario #nome {
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+}
+label {
+    display: block;
+}
+.box {
+    position: relative;
+    left: 50px;
+}
+.box input {
+    position: relative;
+    left: 90px;
+    top: 0px;
+    width: 60px;
+    outline: none;
+}
+.box label {
+    position: relative;
+    top: 19px;
+    right: 12px;
+    font-size: 18px;
+}
+.btn {
+    position: relative;
+    left: 90px;
+    top: 20px;
+    padding: 9px;
+    border-radius: 9px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    background-color: rgb(58, 204, 204);
+    color: black;
+    border: none;
+    box-shadow: 0 5px rgb(12, 11, 11);
+}
+.btn:hover {
+    cursor: pointer;
+    background-color:  rgb(2, 137, 248);
+    transition: 0.2s;
+}
+.btn:active {
+    margin-top: 5px;
+    color: black;
+    box-shadow: 0 0;
+}
+.demo {
+    position: absolute;
+    bottom: 19rem;
+    right: 6.9rem;
+    text-align: center;
+    color: yellow;
+    font-size: 18px;
+    font-family: monospace;
+    background-color: rgb(47, 47, 47);
+    border-radius: 20px
+}
