@@ -22,4 +22,9 @@ form.addEventListener("submit", event => {
   document.querySelector(".demo").innerHTML = `resultado:<br> ${nome}, a sua média foi: ${media}<br> ${cond()}`
 });
 
+const reloud = document.querySelector(".item-reloud");
+
+reloud.addEventListener('click', () =>{
+  return window.location.reload();
+})
 
